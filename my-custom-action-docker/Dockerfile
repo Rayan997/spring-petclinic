@@ -1,5 +1,5 @@
 # Utiliser une image de base légère
-FROM alpine:3.14
+FROM alpine:3.20
 
 # Ajouter un script d'entrée
 COPY entrypoint.sh /entrypoint.sh
